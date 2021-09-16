@@ -19,11 +19,11 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  themeUrl: https://status.ctd.ai/themes/light.css
+  themeUrl: https://example.com/ctd.css
   #theme: light
   # baseUrl: /status-page
   cname: status.ctd.ai
-  logoUrl: https://raw.githubusercontent.com/automaticCRM/status-page/c3760d0af1a0ee2178fd291c376fc014d7033d87/assets/ctd-logo.png
+  logoUrl: https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd-logo.svg
   name: Connect The Dots Status
   # introTitle: "**Connect the Dots Status**"
   # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
