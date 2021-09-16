@@ -19,6 +19,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
+  theme: dark
   baseUrl: /status-page
   logoUrl: https://github.com/automaticCRM/status-page/blob/c3760d0af1a0ee2178fd291c376fc014d7033d87/assets/ctd-logo.png
   name: Connect The Dots Status
