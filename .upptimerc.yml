@@ -16,7 +16,10 @@ sites:
 assignees: # Users to assign downtime issues (optional)
   - jajaislanina
 status-website:
-  themeUrl: https://status.ctd.ai/ctd.css
+  #themeUrl: https://status.ctd.ai/ctd.css
+  links:
+    - rel: stylesheet
+      href: https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd.css
   #theme: light
   cname: status.ctd.ai
   logoUrl: https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd-logo.svg
