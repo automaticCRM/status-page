@@ -19,9 +19,8 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  # themeUrl: https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd.css
-  theme: light
-  css: "body { background-color: #00a3ff }"
+  themeUrl: https://status.ctd.ai/themes/light.css
+  #theme: light
   # baseUrl: /status-page
   cname: status.ctd.ai
   logoUrl: https://raw.githubusercontent.com/automaticCRM/status-page/c3760d0af1a0ee2178fd291c376fc014d7033d87/assets/ctd-logo.png
