@@ -10,7 +10,7 @@ sites:
     url: https://app.ctd.ai
     icon: https://app.ctd.ai/public/assets/favicon-16x16.png
   - name: Ingestion Engine
-    url: https://app.ctd.ai/backend/health/954d3b89-56e4-4bfa-8b92-033c22a139fe
+    url: $INGESTION_ENDPOINT
     icon: https://app.ctd.ai/public/assets/favicon-16x16.png
 
 assignees: # Users to assign downtime issues (optional)
