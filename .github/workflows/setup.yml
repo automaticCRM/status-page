@@ -25,12 +25,12 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT }}
-#       - name: Update template
-#         uses: upptime/uptime-monitor@v1.26.4
-#         with:
-#           command: "update-template"
-#         env:
-#           GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Update template
+        uses: upptime/uptime-monitor@v1.26.4
+        with:
+          command: "update-template"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
       - name: Update response time
         uses: upptime/uptime-monitor@v1.26.4
         with:
