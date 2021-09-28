@@ -25,13 +25,13 @@
   --graph-filter: none;
 }
 
-/* nav ul li a.svelte-a08hsz {
-  padding: 4px 20px;
-  border-radius: 16px;
-  background-color: #ececec;
-  border-radius: 16px;
-  color: #272727;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 25px;
-} */
+nav ul li a {
+  padding: 4px 20px !important;
+  border-radius: 16px !important;
+  background-color: #ececec !important;
+  border-radius: 16px !important;
+  color: #272727 !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  line-height: 25px !important;
+}
