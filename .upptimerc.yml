@@ -25,6 +25,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd-logo.svg
   name: System Status
   favicon: https://app.ctd.ai/public/assets/favicon-32x32.png
+  css: "nav ul li a.svelte-a08hsz { padding: 4px 20px!important; border-radius: 16px; background-color: #ececec; border-radius: 16px; color: #272727; font-size: 15px; font-weight: 500 }"
   # introTitle: "**Connect the Dots Status**"
   # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:

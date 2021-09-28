@@ -24,14 +24,3 @@
   --graph-opacity: 1;
   --graph-filter: none;
 }
-
-nav ul li a {
-  padding: 4px 20px !important;
-  border-radius: 16px !important;
-  background-color: #ececec !important;
-  border-radius: 16px !important;
-  color: #272727 !important;
-  font-size: 15px !important;
-  font-weight: 500 !important;
-  line-height: 25px !important;
-}
