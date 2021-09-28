@@ -24,3 +24,14 @@
   --graph-opacity: 1;
   --graph-filter: none;
 }
+
+nav ul li a.svelte-a08hsz {
+  padding: 4px 20px;
+  border-radius: 16px;
+  background-color: #ececec;
+  border-radius: 16px;
+  color: #272727;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
