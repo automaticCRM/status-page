@@ -21,11 +21,11 @@ status-website:
     - rel: stylesheet
       href: https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd.css
   #theme: light
-  cname: ctd.ai
+  cname: status.ctd.ai
   logoUrl: https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd-logo.svg
   name: System Status
   favicon: https://app.ctd.ai/public/assets/favicon-32x32.png
-  css: "nav ul { width:100%; justify-content: space-between!important; } nav ul li:first-child a.svelte-a08hsz { padding: 0 16px!important; border-left: 1px solid #D3D6DC; color: #595E6B; font-size: 14px } nav ul li:first-child a.svelte-a08hsz:hover { color: #00A3FF } nav ul li:last-child a.svelte-a08hsz { padding: 4px 20px!important; border-radius: 16px; background-color: #ececec; border-radius: 16px; color: #272727; font-size: 15px; font-weight: 500; line-height: 25px; } .logo.svelte-a08hsz.svelte-a08hsz { padding: 16px 0; margin-right: 0 } .logo.svelte-a08hsz img.svelte-a08hsz { height: 36px; margin-right: 20px!important } .logo.svelte-a08hsz div { display: none }"
+  css: "nav ul { width:100%; justify-content: space-between!important; } nav ul li:first-child a.svelte-a08hsz { padding: 0 16px!important; border-left: 1px solid #D3D6DC; color: #595E6B; font-size: 14px } nav ul li:last-child a.svelte-a08hsz { padding: 4px 20px!important; border-radius: 16px; background-color: #ececec; border-radius: 16px; color: #272727; font-size: 15px; font-weight: 500; line-height: 25px; } .logo.svelte-a08hsz.svelte-a08hsz { padding: 16px 0; margin-right: 0 } .logo.svelte-a08hsz img.svelte-a08hsz { height: 36px; margin-right: 20px!important } .logo.svelte-a08hsz div { display: none }"
   # introTitle: "**Connect the Dots Status**"
   # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
