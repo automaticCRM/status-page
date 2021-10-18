@@ -5,13 +5,13 @@ repo: status-page # The name of this repository
 sites:
   - name: Web Site
     url: https://www.ctd.ai
-    icon: https://app.ctd.ai/public/assets/favicon-16x16.png
+    icon: https://app.ctd.ai/public/assets/favicon-32x32.png
   - name: Web App
     url: https://app.ctd.ai
-    icon: https://app.ctd.ai/public/assets/favicon-16x16.png
+    icon: https://app.ctd.ai/public/assets/favicon-32x32.png
   - name: Ingestion Engine
     url: $INGESTION_ENDPOINT
-    icon: https://app.ctd.ai/public/assets/favicon-16x16.png
+    icon: https://app.ctd.ai/public/assets/favicon-32x32.png
 
 assignees: # Users to assign downtime issues (optional)
   - jajaislanina
