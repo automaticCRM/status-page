@@ -22,35 +22,39 @@
     "url": "https://app.ctd.ai",
     "icon": "https://app.ctd.ai/public/assets/favicon-32x32.png",
     "slug": "web-app",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 256,
-    "timeDay": 232,
-    "timeWeek": 358,
-    "timeMonth": 276,
-    "timeYear": 256,
-    "dailyMinutesDown": {}
+    "time": 255,
+    "timeDay": 203,
+    "timeWeek": 335,
+    "timeMonth": 274,
+    "timeYear": 255,
+    "dailyMinutesDown": {
+      "2021-11-16": 0
+    }
   },
   {
     "name": "Ingestion Engine",
     "url": "$INGESTION_ENDPOINT",
     "icon": "https://app.ctd.ai/public/assets/favicon-32x32.png",
     "slug": "ingestion-engine",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 115,
-    "timeDay": 80,
+    "timeDay": 76,
     "timeWeek": 78,
     "timeMonth": 71,
     "timeYear": 115,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-11-16": 0
+    }
   }
 ]
