@@ -22,19 +22,19 @@
     "url": "https://app.ctd.ai",
     "icon": "https://app.ctd.ai/public/assets/favicon-32x32.png",
     "slug": "web-app",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 255,
-    "timeDay": 203,
-    "timeWeek": 335,
-    "timeMonth": 274,
-    "timeYear": 255,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.03%",
+    "uptimeWeek": "99.72%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
+    "time": 254,
+    "timeDay": 205,
+    "timeWeek": 321,
+    "timeMonth": 272,
+    "timeYear": 254,
     "dailyMinutesDown": {
-      "2021-11-16": 0
+      "2021-11-16": 28
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "$INGESTION_ENDPOINT",
     "icon": "https://app.ctd.ai/public/assets/favicon-32x32.png",
     "slug": "ingestion-engine",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 115,
-    "timeDay": 76,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.03%",
+    "uptimeWeek": "99.72%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.97%",
+    "time": 114,
+    "timeDay": 77,
     "timeWeek": 78,
     "timeMonth": 71,
-    "timeYear": 115,
+    "timeYear": 114,
     "dailyMinutesDown": {
-      "2021-11-16": 0
+      "2021-11-16": 28
     }
   }
 ]
