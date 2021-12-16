@@ -5,19 +5,17 @@
     "icon": "https://app.ctd.ai/public/assets/favicon-32x32.png",
     "slug": "web-site",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "98.97%",
-    "uptimeWeek": "99.85%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.99%",
-    "time": 256,
-    "timeDay": 214,
-    "timeWeek": 224,
-    "timeMonth": 256,
-    "timeYear": 256,
-    "dailyMinutesDown": {
-      "2021-12-15": 15
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 255,
+    "timeDay": 207,
+    "timeWeek": 223,
+    "timeMonth": 254,
+    "timeYear": 255,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Web App",
@@ -31,8 +29,8 @@
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.98%",
     "time": 245,
-    "timeDay": 274,
-    "timeWeek": 245,
+    "timeDay": 224,
+    "timeWeek": 244,
     "timeMonth": 211,
     "timeYear": 245,
     "dailyMinutesDown": {
@@ -51,8 +49,8 @@
     "uptimeMonth": "99.94%",
     "uptimeYear": "99.98%",
     "time": 107,
-    "timeDay": 283,
-    "timeWeek": 147,
+    "timeDay": 80,
+    "timeWeek": 146,
     "timeMonth": 82,
     "timeYear": 107,
     "dailyMinutesDown": {
