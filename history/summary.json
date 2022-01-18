@@ -42,18 +42,19 @@
     "url": "$INGESTION_ENDPOINT",
     "icon": "https://app.ctd.ai/public/assets/favicon-32x32.png",
     "slug": "ingestion-engine",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 108,
-    "timeDay": 80,
-    "timeWeek": 129,
-    "timeMonth": 100,
-    "timeYear": 108,
+    "time": 107,
+    "timeDay": 77,
+    "timeWeek": 122,
+    "timeMonth": 99,
+    "timeYear": 107,
     "dailyMinutesDown": {
+      "2022-01-18": 0,
       "2021-11-16": 28
     }
   }
