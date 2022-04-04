@@ -4,19 +4,19 @@
     "url": "https://www.ctd.ai",
     "icon": "https://app.ctd.ai/public/assets/favicon-32x32.png",
     "slug": "web-site",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.37%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 284,
-    "timeDay": 155,
-    "timeWeek": 292,
-    "timeMonth": 305,
-    "timeYear": 284,
+    "time": 283,
+    "timeDay": 184,
+    "timeWeek": 283,
+    "timeMonth": 302,
+    "timeYear": 283,
     "dailyMinutesDown": {
-      "2022-04-04": 0
+      "2022-04-04": 9
     }
   },
   {
