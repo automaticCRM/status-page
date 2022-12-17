@@ -1,7 +1,7 @@
 url: $INGESTION_ENDPOINT
 status: up
 code: 200
-responseTime: 15
-lastUpdated: 2022-12-16T23:00:36.670Z
+responseTime: 57
+lastUpdated: 2022-12-17T23:00:26.144Z
 startTime: Wed Sep 15 2021 16:09:02 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
