@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 337,
-    "timeDay": 136,
-    "timeWeek": 270,
-    "timeMonth": 280,
+    "timeDay": 156,
+    "timeWeek": 241,
+    "timeMonth": 274,
     "timeYear": 349,
     "dailyMinutesDown": {}
   },
@@ -28,14 +28,12 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 265,
-    "timeDay": 179,
-    "timeWeek": 206,
-    "timeMonth": 186,
-    "timeYear": 264,
-    "dailyMinutesDown": {
-      "2022-02-12": 62
-    }
+    "time": 264,
+    "timeDay": 188,
+    "timeWeek": 200,
+    "timeMonth": 187,
+    "timeYear": 263,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Ingestion Engine",
@@ -49,15 +47,14 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 114,
-    "timeDay": 90,
-    "timeWeek": 57,
-    "timeMonth": 61,
+    "timeDay": 94,
+    "timeWeek": 64,
+    "timeMonth": 62,
     "timeYear": 122,
     "dailyMinutesDown": {
       "2022-05-23": 18,
       "2022-05-06": 43,
-      "2022-04-26": 42,
-      "2022-02-12": 62
+      "2022-04-26": 42
     }
   }
 ]
