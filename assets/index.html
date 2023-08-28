@@ -15,24 +15,30 @@
   p{
     font-size: 16px;
     font-family: Inter, sans-serif;
-    color: #7a8594
+    color: #7a8594;
+    margin-top: 0;
   }
   body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #333;
   }
   article {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    width: 720px;
-    height: 494px;
-    top: 144px;
+    width: calc(100% - 16px);
+    max-width: 720px;
     background: #ffffff;
     box-shadow: -4px -4px 16px rgba(250, 251, 255, 0.5),
       4px 4px 16px rgba(225, 227, 230, 0.4);
     border-radius: 8px;
-    margin-left: -360px;
-    left: 50%;
-    padding: 15px;
+    padding: 32px 8px;
   }
   a {
     color: rgb(9, 160, 230);
@@ -44,6 +50,7 @@
   }
   .img-logo {
     margin-top: 90px;
+    margin-bottom: 16px;
   }
   .big-picture {
     opacity: 1;
@@ -54,30 +61,23 @@
 ​
   }
   .img-wrap {
+    position: relative;
     height: 242px;
-    width: 314px;
-    background-color: red;
-    box-shadow: -4px -4px 16px rgba(250, 251, 255, 0.5), 4px 4px 16px rgba(146, 146, 146, 0.4);
-  }
-  .img-wrap {
-    position: absolute;
-    width: 314px;
-    height: 242px;
-    left: 216px;
-    top: 39px;
+    width: 300px;
     background: linear-gradient(0deg, #f7f9fd, #f7f9fd);
     border-radius: 8px;
     background-size: 39px 39px;
     background-image:
     linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
+    box-shadow: -4px -4px 16px rgba(250, 251, 255, 0.5), 4px 4px 16px rgba(146, 146, 146, 0.4);
+    margin-bottom: 40px;
   }
   .wrap-cover {
     position: absolute;
-    width: 157px;
-    height: 242px;
-    left: 216px;
-    top: 39px;
+    inset: 0 50% 0 0;
+    width: 50%;
+    height: 100%;
     border-radius: 8px;
     background: linear-gradient(
       201.23deg,
@@ -86,13 +86,9 @@
     );
     backdrop-filter: blur(10px);
   }
-  .text-cover{
-      position: absolute;
-      bottom: 10px;
-  }
   .line1{
       height: 91px;
-      width: 56px;
+      width: 50px;
       border-bottom: 1.40399px solid #18355E;
       border-right: 1.40399px solid #18355E;
       border-bottom-right-radius: 15.5281px;
@@ -103,7 +99,7 @@
   }
   .line2 {
     height: 91px;
-    width: 57px;
+    width: 51px;
     border-top: 1.40399px solid #18355E;
     border-right: 1.40399px solid #18355E;
     border-top-right-radius: 15.5281px;
@@ -114,7 +110,7 @@
   }
   .line3{
     height: 91px;
-    width: 81px;
+    width: 75px;
     border-top: 1.40399px solid #18355E;
     position:absolute;
     top: 121px;
@@ -142,16 +138,11 @@
     />
     <div class="line2"></div>
     <div class="line3"></div>
+    <div class="wrap-cover"></div>  
 </div>
-<div class="wrap-cover"></div>  
-<div class="text-cover">
-​
-<div class="wrap">
-    <h1>We&rsquo;ll be back soon!</h1>
-        <p>
-            Scheduled Maintenance August 29th, 4am-6am EST.
-        </p>
-        <p>&mdash; The Connect The Dots Team</p>
-    </div>
-</div>
+<h1>We&rsquo;ll be back soon!</h1>
+<p>
+    Scheduled Maintenance August 29th, 4am-6am EST.
+</p>
+<p>&mdash; The Connect The Dots Team</p>
 </article>
