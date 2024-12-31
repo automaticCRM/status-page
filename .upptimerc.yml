@@ -14,7 +14,8 @@ sites:
     icon: https://app.ctd.ai/public/assets/favicon-32x32.png
 
 assignees: # Users to assign downtime issues (optional)
-  - jajaislanina
+  - lazar-devolut-ctd
+  - pavle-devolut-ctd
 status-website:
   #themeUrl: https://status.ctd.ai/ctd.css
   links:
