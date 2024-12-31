@@ -1,148 +1,26 @@
-<!doctype html>
-<head>
-    <link rel="shortcut icon" href="https://github.com/automaticCRM/status-page/blob/master/assets/ctd-icon.png?raw=true">
-</head>
-<style>
-  body {
-    text-align: center;
-    background-color: #E5E5E5;
-    position: relative;
-  }
-  h1 {
-    font-size: 32px;
-    font-family: 'Cera pro', sans-serif;
-  }
-  p{
-    font-size: 16px;
-    font-family: Inter, sans-serif;
-    color: #7a8594;
-    margin-top: 0;
-  }
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #333;
-  }
-  article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: calc(100% - 16px);
-    max-width: 720px;
-    background: #ffffff;
-    box-shadow: -4px -4px 16px rgba(250, 251, 255, 0.5),
-      4px 4px 16px rgba(225, 227, 230, 0.4);
-    border-radius: 8px;
-    padding: 32px 8px;
-  }
-  a {
-    color: rgb(9, 160, 230);
-    text-decoration: none;
-  }
-  a:hover {
-    color: #333;
-    text-decoration: none;
-  }
-  .img-logo {
-    margin-top: 90px;
-    margin-bottom: 16px;
-  }
-  .big-picture {
-    opacity: 1;
-    height: 140px;
-    margin-right: auto;
-    margin-top: 50px;
-    z-index: 1;
-​
-  }
-  .img-wrap {
-    position: relative;
-    height: 242px;
-    width: 300px;
-    background: linear-gradient(0deg, #f7f9fd, #f7f9fd);
-    border-radius: 8px;
-    background-size: 39px 39px;
-    background-image:
-    linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
-    box-shadow: -4px -4px 16px rgba(250, 251, 255, 0.5), 4px 4px 16px rgba(146, 146, 146, 0.4);
-    margin-bottom: 40px;
-  }
-  .wrap-cover {
-    position: absolute;
-    inset: 0 50% 0 0;
-    width: 50%;
-    height: 100%;
-    border-radius: 8px;
-    background: linear-gradient(
-      201.23deg,
-      rgba(255, 255, 255, 0.3034) 4.03%,
-      rgba(255, 255, 255, 0.328) 94%
-    );
-    backdrop-filter: blur(10px);
-  }
-  .line1{
-      height: 91px;
-      width: 50px;
-      border-bottom: 1.40399px solid #18355E;
-      border-right: 1.40399px solid #18355E;
-      border-bottom-right-radius: 15.5281px;
-      position:absolute;
-      top: 0px;
-      right: 30px;
-      z-index: 0;
-  }
-  .line2 {
-    height: 91px;
-    width: 51px;
-    border-top: 1.40399px solid #18355E;
-    border-right: 1.40399px solid #18355E;
-    border-top-right-radius: 15.5281px;
-    position:absolute;
-    bottom: 0px;
-    right: 30px;
-    z-index: 0;
-  }
-  .line3{
-    height: 91px;
-    width: 75px;
-    border-top: 1.40399px solid #18355E;
-    position:absolute;
-    top: 121px;
-    right: 0px;
-    z-index: 0;
-  }
-  .wrap{
-      align-items: center;
-      width: 500px;
-      margin-left: 110px;
-  }
-</style>
-<img
-  class="img-logo"
-  src="https://raw.githubusercontent.com/automaticCRM/status-page/9c2b37fbd602e179ae2ac8ebf48ad2ab327c87d9/assets/ctd-logo.svg"
-  alt=""
-/>
-<article>
-<div class="img-wrap">
-    <div class="line1"></div>
-    <img
-    src="https://github.com/automaticCRM/status-page/blob/master/assets/ctd-icon.png?raw=true"
-    alt=""
-    class="big-picture"
-    />
-    <div class="line2"></div>
-    <div class="line3"></div>
-    <div class="wrap-cover"></div>  
-</div>
-<h1>We&rsquo;ll be back soon!</h1>
-<p>
-    Scheduled Maintenance October 17th 3-5am EST.
-</p>
-<p>&mdash; The Connect The Dots Team</p>
-</article>
+<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> <base href=/ > <link href=manifest.json rel=manifest crossorigin=use-credentials> <script>__SAPPER__={baseUrl:"",preloaded:[void 0,{}]};if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js');(function(){try{eval("async function x(){}");var main="/client/client.0c36e1ed.js"}catch(e){main="/client/legacy/client.49d775d1.js"};var s=document.createElement("script");try{new Function("if(0)import('')")();s.src=main;s.type="module";s.crossOrigin="use-credentials";}catch(e){s.src="/client/shimport@2.0.5.js";s.setAttribute("data-main",main);}document.head.appendChild(s);}());</script> <link href=client/client-31a52aa5.css rel=stylesheet><link href=client/createOctokit-a85f76c7.css rel=stylesheet><link href=client/index-b0b6455a.css rel=stylesheet> <title>System Status</title> <script>// If `prefers-color-scheme` is not supported, fall back to light mode.
+      // In this case, light.css will be downloaded with `highest` priority.
+      if (typeof window !== "undefined" && typeof document !== "undefined" && "matchMedia" in window && window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+        document.documentElement.style.display = 'none';
+        document.head.insertAdjacentHTML(
+          'beforeend',
+          '<link rel="stylesheet" href={`${config.path}/themes/light.css`} onload="document.documentElement.style.display = \'\'">',
+        );
+      } </script> <link href=https://status.ctd.ai/themes/light.css rel=stylesheet media=(prefers-color-scheme:light)> <link href=https://status.ctd.ai/themes/dark.css rel=stylesheet media=(prefers-color-scheme:dark)><link href=https://status.ctd.ai/global.css rel=stylesheet><link href=https://app.ctd.ai/public/assets/favicon-32x32.png rel=icon type=image/svg><link href=https://app.ctd.ai/public/assets/favicon-32x32.png rel=icon type=image/png><link href=https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd.css rel=stylesheet><style>nav ul{width:100%;justify-content:space-between!important}nav ul li:first-child a.svelte-a08hsz{padding:0 16px!important;border-left:1px solid #d3d6dc;color:#595e6b;font-size:14px}nav ul li:last-child a.svelte-a08hsz{padding:4px 20px!important;border-radius:16px;background-color:#ececec;border-radius:16px;color:#272727;font-size:15px;font-weight:500;line-height:25px}.logo.svelte-a08hsz.svelte-a08hsz{padding:16px 0;margin-right:0}.logo.svelte-a08hsz img.svelte-a08hsz{height:36px;margin-right:20px!important}.logo.svelte-a08hsz div{display:none}</style> <link href=/client/client.0c36e1ed.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/client-31a52aa5.css rel=preload as=style><link href=/client/index.4c916c79.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit.4046183d.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/inject_styles.803b7e80.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit-a85f76c7.css rel=preload as=style><link href=/client/index-b0b6455a.css rel=preload as=style></head> <body> <div id=sapper> <nav class=svelte-a08hsz><div class="svelte-a08hsz container"><div><a href=https://status.ctd.ai class="svelte-a08hsz logo"><img alt="" class=svelte-a08hsz src=https://raw.githubusercontent.com/automaticCRM/status-page/master/assets/ctd-logo.svg> <div>System Status</div></a></div> <ul class=svelte-a08hsz><li><a href=https://status.ctd.ai class=svelte-a08hsz target=_self>System Status</a> <li><a href=https://app.ctd.ai class=svelte-a08hsz target=_self>Login</a> </li> </ul></div> </nav> <main class=container> <header class=svelte-ngkazm> </header> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section class=svelte-8lnl4f><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <div class="svelte-fqsq6s f changed"><h2>Live Status</h2> <form class="svelte-fqsq6s f r"><div><input class=svelte-fqsq6s id=data_day name=d type=radio value=day><label class=svelte-fqsq6s for=data_day>24h</label></div> <div><input class=svelte-fqsq6s id=data_week name=d type=radio value=week checked><label class=svelte-fqsq6s for=data_week>7d</label></div> <div><input class=svelte-fqsq6s id=data_month name=d type=radio value=month><label class=svelte-fqsq6s for=data_month>30d</label></div> <div><input class=svelte-fqsq6s id=data_year name=d type=radio value=year><label class=svelte-fqsq6s for=data_year>1y</label></div> <div><input class=svelte-fqsq6s id=data_all name=d type=radio value=all><label class=svelte-fqsq6s for=data_all>all</label></div></form></div> <section class="svelte-fqsq6s live-status"><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div> </section> <section><div class="svelte-68jxue loading"><svg class=svelte-68jxue height=38 stroke=#aaa width=38 xmlns=http://www.w3.org/2000/svg><g fill=none fill-rule=evenodd><g stroke-width=2 transform="translate(1 1)"><circle cx=18 cy=18 r=18 stroke-opacity=.5></circle><path d="M36 18c0-9.94-8.06-18-18-18"><animateTransform attributeName=transform dur=1s from="0 18 18" repeatCount=indefinite to="360 18 18" type=rotate></animateTransform></path></g></g></svg></div></section></main> <footer class=svelte-jbr799><p>This page is <a href=https://github.com/automaticCRM/status-page>open source</a>, powered by <a href=https://upptime.js.org>Upptime</a></p> </footer></div> <script> try {
+        if (typeof window !== "undefined" && window.navigator && navigator.serviceWorker) {
+          navigator.serviceWorker.getRegistrations().then(function (registrations) {
+            for (let registration of registrations) {
+              registration.unregister();
+            }
+          });
+        }
+        if (typeof window !== "undefined" && "caches" in window) {
+          caches.keys().then(function (keyList) {
+            return Promise.all(
+              keyList.map(function (key) {
+                return caches.delete(key);
+              })
+            );
+          });
+        }
+      } catch (error) {} </script> 
